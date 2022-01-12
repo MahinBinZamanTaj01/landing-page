@@ -1,4 +1,26 @@
-/* top players style  */
+ 
+ /* Common styles & utilities */
+body{ font-family: 'Poppins', sans-serif;
+        background-color: #F3F1FF;
+        }
+    main{
+        display: flex;
+        justify-content: center;
+    }
+        .container{
+            background-color: white;
+            width: 870px;
+            padding: 30px;
+        }
+
+ /* top players style  */
+ .section-title{
+    color: #562EFF; 
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+ }
 .players{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -11,4 +33,7 @@
 .player img{
     width: 55px;
     height: 55px;
+}
+.player-name{
+    margin-left: 16px;
 }
